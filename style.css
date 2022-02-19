@@ -23,6 +23,12 @@ background-attachment: fixed;
 background-size: cover;
 height: 1080px;
 width: 1920px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0px);
+    -moz-transform: translate(-50%, 0px);
+    -o-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
 }
 
 video{
